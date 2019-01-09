@@ -1,0 +1,21 @@
+# Outputs
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+
+# Only include the typings file for our Jasmine custom matcher 
+# so that our test referencing the custom matcher compiles correctly
+!src/jasmine-custom-matchers.d.ts
+
+# IDEs
+.idea/
+jsconfig.json
+
+# Misc
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Mac OSX Finder files.
+**/.DS_Store
+.DS_Store

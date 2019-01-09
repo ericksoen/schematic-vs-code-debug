@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "add-license": {
+      "description": "Add license text to any typescript files that do not have one",
+      "factory": "./add-license/index#addLicense"
+    }
+  }
+}
